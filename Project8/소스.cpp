@@ -112,6 +112,7 @@ void DFS_adjList(graphType* g, int v) {
 	printf(" %c", v + 65);
 
 
+
 	while (!isEmpty()) {
 		v = pop();
 		w = g->adjList_H[v];
